@@ -1,0 +1,10 @@
+const learnedSkills = [
+    {},
+    {},
+    {},
+]
+const learningSkills= [
+    {},
+    {},
+    {},
+]
