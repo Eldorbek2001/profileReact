@@ -13,7 +13,7 @@ function Landing(){
     }
 return (
 <div className = "landing">
-  <MyShadow />
+  <MyShadowArea />
 
   <div className="home-info" id="message">
     <Experiences />
