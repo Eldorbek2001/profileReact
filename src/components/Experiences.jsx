@@ -6,14 +6,11 @@ function Experiences(){
     return(
         <div className="experience-box">
         <h2 style={{color:"white"}}>My most recent experience:</h2>
-        {experiences.map(x=>{
-            return(
+        {experiences.map(x=>
                     <div className="experience-item">
                     <h4>{x.position}, <br />{x.department}, <br /> {x.company}</h4>
                     <div style={{textAlign:"right"}}>{x.from}-{x.to}</div>
                     </div>
-                 )
-        }
         )}
     </div>
     )
